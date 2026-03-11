@@ -34,7 +34,7 @@ on:
           with:
             host: ${{ secrets.EC2_HOST }}
             username: ${{ secrets.EC2_USERNAME }}
-            key: ${{ secrets.EC2_SSH-KEY }}
+            key: ${{ secrets.EC2_SSH-KEY1 }}
             script:
               cd home/ubuntu
               if[ ! -d "flask-app"]; then
