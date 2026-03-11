@@ -20,7 +20,7 @@
 
 The main goals of this project were:
 
-- Understand how to analyze an existing codebase
+- Understand how to analyze  an existing codebase
 - Write a **Dockerfile** for a Flask application
 - Use **Docker Compose** to manage configuration
 - Correctly handle **SQLite database persistence**
