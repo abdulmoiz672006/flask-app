@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-and-push:
-    runs-on: Devops_for_kub
+    runs-on: [self-hosted, Devops_for_kub]
 
     steps:
       - name: Checkout repository
@@ -28,7 +28,7 @@ jobs:
 
   deploy:
     needs: build-and-push
-    runs-on: Docker_for_kub
+    runs-on: [self-hosted , Docker_for_kub]
 
     steps:
       - name: Deploy to EC2
