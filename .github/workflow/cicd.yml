@@ -45,6 +45,6 @@ on:
                  git pull origin main
 
                  docker pull moiz672006/flask-app:latest
-                 docker compose down
-                 docker compose up -d
+                 docker-compose down
+                 docker-compose up -d
               
