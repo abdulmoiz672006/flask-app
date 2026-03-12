@@ -1,6 +1,6 @@
 🐳 Dockerized Flask Microblog (DevOps Practice)
 
-->This repository contains a **Dockerized version** of a Flask Microblog application.
+->This repository contains a **Dockerized version** of a Flask Microblog  application.
 ->The purpose of this project is to practice **Docker and Docker Compose** by containerizing an existing application and making it reproducible and portable.
 
  ⚠️ This project focuses on **DevOps work (Dockerization)**, not application development.
