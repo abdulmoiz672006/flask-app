@@ -47,6 +47,6 @@ jobs:
             git pull origin main
 
             docker pull moiz672006/flask-app:latest
-            docker-compose down
-            docker-compose up -d
+            sudo docker-compose down
+            sudo docker-compose up -d
               
